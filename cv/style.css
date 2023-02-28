@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --btn: #3498db;
+    --btn-hover:#3729b9;
+    --info: white;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins';
+}
+body{
+  background-image: url(./img/fondo1.jpg);
+  position: absolute;
+  z-index: 2;
+}
+
+.container {
+  position: relative;
+  margin-bottom: 100px;
+  padding: 0;
+}
+
+.container img {
+  position: absolute;
+}
+
+
+.img-icono{
+    position: absolute;
+    width: 10%;
+    z-index: 1;
+    border:solid cornflowerblue;
+    margin-left: -100px;
+}
+
+
+ .banner__title {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner__title h1 {
+    font-size: 50px;
+    color: rgb(4, 4, 4);
+   filter: brightness(300%); 
+}
+
+.banner__title h2 {
+    font-size: 36px;
+    color: #035cb5; 
+    margin-top: 10px;  
+    filter: brightness(200%); 
+}
+
+
+.btn-0 { 
+    margin: 32px 0;   
+    padding: 12px 24px;
+    background-color: var(--btn);
+    border: none;    
+    border-radius: 15px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+  }
+  .btn-texto{
+    color: #ffffff; 
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .btn-0:hover {
+    background-color: var(--btn-hover);
+  }
+
+  
+
+.yo{
+  display: flex;
+  justify-content: center;
+}
+
+  .yo1{
+    border-radius: 1000px;
+    box-shadow: 0 0 14px 28px rgba(0, 0, 0, 0.15);
+    width: 15%;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    transition: .5s ease;
+  }
+  .yo1:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  .texto-imagen {
+    transition: .5s ease;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }  
+  
+  
+
+.contenedor-centrado{
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+
+
+.skills-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.skills-title {
+  position: relative;
+  z-index: 2;
+  color: var(--info);
+  font-size: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 10px;  
+}
+.mr{
+  margin-right: 80px;
+}
+.mr1{
+  margin-right: 100px;
+}
+.font-l{
+  font-size: 35px;
+}
+.height{
+  height: 80px;
+}
+.skills-content{
+  font-size: 30px;
+  width: 100%;
+  opacity: 1;
+  transition: ease-in-out .2s;
+}
+.skills-content-1{
+  position: relative;
+  z-index: 0;
+  opacity: 0;
+  transition: ease-in-out .2s;
+  margin-top: -200px;
+  
+
+}
+.skill{
+  flex-direction: row;
+}
+
+.separador{
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  height: 60px;
+}
+.progress{
+  width: 100%;
+}
+.info {
+  display: flex;
+  margin-left: 20px; 
+  width: fit-content;
+  flex-direction: column;
+}
+.info-1{
+  display: flex;
+  justify-content: center;
+}
+.info0{
+  display: flex;
+}
+
+
+.elemento{
+  margin: 20px 0;
+  color: white;
+}
+
+.info, .est h3{
+  font-size: 40px;
+}
+.info p{
+  font-size: 30px;
+  color: white
+}
+.datos {
+
+  background-color: black
+}
+
+.info h2 {
+  margin: auto;
+  font-size: 50px;
+  color: var(--info);
+  text-transform: uppercase;
+  justify-content: center;
+}
+.mi-perfil .exp {
+  display: flex;
+  flex-direction: column; 
+    justify-content: center;
+}
+.perfil{
+  display: flex;
+  justify-content: center;
+}
+.perfil h2 {
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 20px;
+}
+.tit{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.exp {
+  margin: 0 100px;
+}
+
+
+ .perfil-inf  {  
+
+  background-color: #aadff0;  
+  
+  margin: 0 20px;
+  
+} 
+
+.perfil-inf p{
+  color: rgb(12, 11, 11);
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.container1{
+  width: 100%;
+}
+
+
+.icono, .icono-i {
+  margin-right: 20px;
+  color: black;
+  transition: ease-in-out .2s;
+}
+
+.icono:hover{
+  transform: scale(1.5);
+  color: blue;
+}
+.icono-i:hover{
+  transform: scale(1.5);
+  color: #833AB4;
+}
+
+.contenedor-boton-arriba{
+  display: flex;
+  justify-content: center;
+}
+.boton-arriba{
+  background-color: blue;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.boton-download{
+  background-color: green;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+.pagina2 {
+  background-image: url(img/fondo\ celeste.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-1 {
+  padding: 12px 24px;
+  background-color:darkblue;
+  border: none;    
+  border-radius: 15px;
+  cursor: pointer;
+  transition: ease-in-out .2s;
+}
+
+.btn-1:hover {
+background-color:black;
+}
+.info-2{
+  display: flex;
+}
+.info-2 p,
+.info-2 h3, 
+.info-2 h2{
+  color: black;
+}
+
